@@ -1,2 +1,2 @@
 # Temalab_Doodle
-Temalab_Doodle
+Repo a Temalab doodle feladatahoz.
