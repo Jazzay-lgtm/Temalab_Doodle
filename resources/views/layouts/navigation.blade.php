@@ -15,6 +15,12 @@
                     <x-nav-link :href="route('foglalas')" :active="request()->routeIs('foglalas')">
                         {{ __('Foglalás') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('torles')" :active="request()->routeIs('torles')">
+                        {{ __('Foglalások') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('rolunk')" :active="request()->routeIs('rolunk')">
+                        {{ __('Rólunk') }}
+                    </x-nav-link>
                 </div>
             </div>
 
@@ -41,7 +47,7 @@
                             <x-dropdown-link :href="route('logout')"
                                     onclick="event.preventDefault();
                                                 this.closest('form').submit();">
-                                {{ __('Log Out') }}
+                                {{ __('Kijelentkezés') }}
                             </x-dropdown-link>
                         </form>
                     </x-slot>

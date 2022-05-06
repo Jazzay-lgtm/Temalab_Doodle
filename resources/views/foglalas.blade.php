@@ -11,22 +11,24 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     <h1>Foglalás</h1>
                     <br>
-                    <form action="Regex.php" target="_popup" method="post">
-                        <div class="mt-4">
-                            <x-input id="nev_ter" class="block mt-1 w-full" placeholder="Név" type="text" name="Nev" :value="old('name')" required autofocus />
+                    <form action="foglalas" method="POST">
+                        @csrf
+                        <div class="mt-4" style="color:gray">
+                            <x-input id="name" class="block mt-1 w-full"  name="name" type="text" value="{{ Auth::user()->name }}" readonly />
+
                         </div>
-                        <div class="mt-4">
-                            <x-input id="email_ter" class="block mt-1 w-full" placeholder="E-mail" type="email" name="Email" :value="old('email')" required />
+                        <div class="mt-4" style="color:gray" >
+                            <x-input id="email" class="block mt-1 w-full"  type="email" name="email" value="{{ Auth::user()->email }}" readonly />
                         </div>
-                        <select  class="block mt-1 w-full">
-                            <option value="Jogositvany">Jogosítvány igénylése</option>
-                            <option value="Szemelyi">Személyi igazolvány igénylése</option>
-                            <option value="Utlevel">Útlevél igénylése</option>
-                            <option value="Ugyfelkapu">Ügyfélkapú, E-ügyintézés</option>
-                            <option value="vezet_hon">Vezetőiengedély honosítása</option>
-                            <option value="oltasi">Oltási igazolvány igénylése</option>
+                        <select  class="block mt-1 w-full"name="type">
+                            <option id="type" value="Jogosítvány igénylése">Jogosítvány igénylése</option>
+                            <option id="type" value="Személyi igazolvány igénylése">Személyi igazolvány igénylése</option>
+                            <option id="type" value="Útlevél igénylése">Útlevél igénylése</option>
+                            <option id="type" value="Ügyfélkapú, E-ügyintézés">Ügyfélkapú, E-ügyintézés</option>
+                            <option id="type" value="Vezetőiengedély honosítása">Vezetőiengedély honosítása</option>
+                            <option id="type" value="Oltási igazolvány igénylése">Oltási igazolvány igénylése</option>
                         </select>
-                        <input class="block mt-1 w-full" name="Calendar" type="datetime-local" required pattern="\d{4}-\d{2}-\d{2}">
+                        <input class="block mt-1 w-full" name="date" type="datetime-local" required pattern="\d{4}-\d{2}-\d{2}">
                         <br>
                         <br>
                         <x-button class="ml-4">
@@ -37,4 +39,5 @@
             </div>
         </div>
     </div>
+
 </x-app-layout>

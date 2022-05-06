@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BookingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,12 +18,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/foglalas', function () {
+Route::get('/dashboard', function () {
     return view('foglalas');
 })->middleware(['auth'])->name('foglalas');
 
 Route::get('/torles', function () {
     return view('torles');
 })->middleware(['auth'])->name('torles');
+
+Route::post('/foglalas',[BookingController::class,'store']);
+
+Route::get('/rolunk', function () {
+    return view('rolunk');
+})->middleware(['auth'])->name('rolunk');
+
+
 
 require __DIR__.'/auth.php';
