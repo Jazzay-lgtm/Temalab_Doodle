@@ -27,6 +27,7 @@ Route::get('/torles', function () {
 })->middleware(['auth'])->name('torles');
 
 Route::post('/foglalas',[BookingController::class,'store']);
+Route::delete('/foglalás-torlese/{id}',[BookingController::class,'destroy']);
 
 Route::get('/rolunk', function () {
     return view('rolunk');

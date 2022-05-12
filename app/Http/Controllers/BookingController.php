@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Booking;
-
+use Illuminate\Support\Facades\DB;
 
 
 class BookingController extends Controller
@@ -18,18 +18,17 @@ class BookingController extends Controller
         $booking->type=$request->type;
         $booking->date=$request->date;
         $booking->save();
-        return redirect('dashboard');
+        return redirect('dashboard')->with('message','Sikeres foglalás');
     }
 
     public function list()
     {
-
-        $bookings=Booking::where('name','LIKE','%{Auth::user()->name}%')->get();
+        $bookings= DB::table('bookings')->where('name','LIKE',Auth::user()->name)->get();
         return view('torles',compact('bookings'));
     }
-    public function delete(Request $request)
+    public function destroy($id)
     {
-        $name = Name::find($request->input('id'));
-        $name->delete();
+        $booking = Booking::find($id)->delete();
+        return redirect('/torles')->with('message','Sikeres törlés');
     }
 }

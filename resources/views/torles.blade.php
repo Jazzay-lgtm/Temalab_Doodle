@@ -7,11 +7,44 @@
         </h2>
     </x-slot>
     <div class="py-12">
+        <x-success-status class="mb-4" :status="session('message')" />
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                    <h1>Foglalás</h1>
-                    <br>
+                    <table class="table table-bordered" style="border-collapse: collapse;">
+                        <thead>
+                        <tr>
+                            <th >Név</th>
+                            <th >email</th>
+                            <th >Mire</th>
+                            <th >Dátum</th>
+                            <th >#</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php
+                        $bookings = DB::table('bookings')->where('name', 'like',Auth::user()->name)->get();?>
+                        @forelse ($bookings as $booking)
+                            <tr>
+                                <td>{{$booking->name}}</td>
+                                <td>{{$booking->email}}</td>
+                                <td>{{$booking->type}}</td>
+                                <td>{{$booking->date}}</td>
+                                <td>
+                                    <form action="{{url('foglalás-torlese/'.$booking->id) }}" method="POST">
+                                        @csrf
+                                        @method('DELETE')
+                                        <x-button class="btn btn-danger">Törlés</x-button>
+                                    </form>
+                                </td>
+                            </tr>
+                        @empty
+                            <tr>
+                                <td calspan="6"> nincs foglalás</td>
+                            </tr>
+                        @endforelse
+                        </tbody>
+                    </table>
 
                 </div>
             </div>

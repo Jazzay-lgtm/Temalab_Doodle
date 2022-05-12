@@ -88,6 +88,10 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+th, td {
+    text-align: left;
+    padding: 8px;
+}
 
 /*
 Add the correct font weight in Edge and Safari.

@@ -35,13 +35,9 @@
                     @endauth
                 </div>
             @endif
-
-
-
-
-
-
-            </div>
+                <div style="color: white">
+                    Üdvözlünk a Kormányablak időpontfoglaló oldalunkon
+                </div>
         </div>
     </body>
 </html>
