@@ -1,9 +1,14 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Foglalás') }}
-        </h2>
+{{--        <h2 class="font-semibold text-xl text-gray-800 leading-tight">--}}
+{{--            {{ __('Foglalás') }}--}}
+{{--        </h2>--}}
     </x-slot>
+<style>
+    .py-6{
+        color: purple;
+    }
+</style>
 
     <div class="py-12">
         <x-success-status class="mb-4" :status="session('message')" />
@@ -29,6 +34,7 @@
                             <option id="type" value="Vezetőiengedély honosítása">Vezetőiengedély honosítása</option>
                             <option id="type" value="Oltási igazolvány igénylése">Oltási igazolvány igénylése</option>
                         </select>
+
                         <input class="block mt-1 w-full" name="date" type="datetime-local" required pattern="\d{4}-\d{2}-\d{2}">
                         <br>
                         <br>

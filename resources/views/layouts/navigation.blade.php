@@ -72,6 +72,12 @@
             <x-responsive-nav-link :href="route('foglalas')" :active="request()->routeIs('foglalas')">
                 {{ __('Folglalás') }}
             </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('torles')" :active="request()->routeIs('torles')">
+                {{ __('Foglalások') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('rolunk')" :active="request()->routeIs('rolunk')">
+                {{ __('Rólunk') }}
+            </x-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
@@ -89,7 +95,7 @@
                     <x-responsive-nav-link :href="route('logout')"
                             onclick="event.preventDefault();
                                         this.closest('form').submit();">
-                        {{ __('Log Out') }}
+                        {{ __('Kijelentkezés') }}
                     </x-responsive-nav-link>
                 </form>
             </div>
