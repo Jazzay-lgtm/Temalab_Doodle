@@ -133,8 +133,8 @@
                 <div class="container">
                     <h2>Cash</h2>
                     <p class="title">Vice President</p>
-                    <p class="text_">Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p class="email">mike@example.com</p>
+                    <p class="text_">Let's see Paul Allen's about us page</p>
+                    <p class="email">cash@example.com</p>
 
                 </div>
             </div>
@@ -144,9 +144,9 @@
                 <img src="/images/randy.jpg"  alt="Eos Ricsi" style="width:100%">
                 <div class="container">
                     <h2>Eos Ricsi</h2>
-                    <p class="title">Vice President</p>
-                    <p class="text_">Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p class="email">mike@example.com</p>
+                    <p class="title">Creative Director</p>
+                    <p class="text_">Let's see Paul Allen's about us page</p>
+                    <p class="email">eos.ricsi@example.com</p>
                 </div>
             </div>
         </div>
@@ -156,8 +156,8 @@
                 <div class="container">
                     <h2>Jazzay</h2>
                     <p class="title">Vice President</p>
-                    <p class="text_">Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p class="email">mike@example.com</p>
+                    <p class="text_">Let's see Paul Allen's about us page</p>
+                    <p class="email">jazzay@example.com</p>
                 </div>
             </div>
         </div>
@@ -169,8 +169,8 @@
                 <div class="container">
                     <h2>Shayni</h2>
                     <p class="title">Vice President</p>
-                    <p class="text_">Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p class="email">mike@example.com</p>
+                    <p class="text_">Let's see Paul Allen's about us page</p>
+                    <p class="email">shayni@example.com</p>
                 </div>
             </div>
         </div>
@@ -179,9 +179,9 @@
                 <img src="/images/stan.jpg" alt="Ati" style="width:100%">
                 <div class="container">
                     <h2>Ati</h2>
-                    <p class="title">Vice President</p>
-                    <p class="text_">Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p class="email">mike@example.com</p>
+                    <p class="title">Creative Director</p>
+                    <p class="text_">Let's see Paul Allen's about us page</p>
+                    <p class="email">ati@example.com</p>
                 </div>
             </div>
         </div>
