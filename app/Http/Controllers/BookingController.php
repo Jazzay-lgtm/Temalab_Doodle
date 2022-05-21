@@ -17,8 +17,14 @@ class BookingController extends Controller
         $booking->email=$request->email;
         $booking->type=$request->type;
         $booking->date=$request->date;
-        $booking->save();
-        return redirect('dashboard')->with('message','Sikeres foglalás');
+        if ($request->date > today()){
+            $booking->save();
+            return redirect('dashboard')->with('message','Sikeres foglalás');
+        }
+        else{
+            return redirect('dashboard')->with('message','Nem lehet régebbi dátumra foglalni');
+        }
+
     }
 
     public function list()

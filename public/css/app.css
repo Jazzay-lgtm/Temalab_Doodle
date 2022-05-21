@@ -220,7 +220,18 @@ Add the correct vertical alignment in Chrome and Firefox.
 progress {
   vertical-align: baseline;
 }
+.table-fixed{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+.table-fixed thead{
+    background-color: lightgrey;
+}
 
+h1{
+    font-size: x-large;
+}
 /*
 Correct the cursor style of increment and decrement buttons in Safari.
 */
