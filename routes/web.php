@@ -33,6 +33,7 @@ Route::get('/rolunk', function () {
     return view('rolunk');
 })->middleware(['auth'])->name('rolunk');
 
-
+Route::post('/logout', function () {
+})->middleware(['auth'])->name('logout');
 
 require __DIR__.'/auth.php';
