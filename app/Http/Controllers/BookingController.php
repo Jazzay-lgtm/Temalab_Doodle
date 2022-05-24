@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 
 class BookingController extends Controller
 {
-
+    //foglalások mentése adatbázisba, ha a foglalni kívánt dátum nem régebbi dátum
     public function store(Request $request)
     {
         $booking = new Booking();
@@ -26,12 +26,14 @@ class BookingController extends Controller
         }
 
     }
-
+    //az adott userhez tartozó foglalások kilistázása
     public function list()
     {
         $bookings= DB::table('bookings')->where('name','LIKE',Auth::user()->name)->get();
         return view('torles',compact('bookings'));
     }
+
+    //id alapján foglalás törlése
     public function destroy($id)
     {
         $booking = Booking::find($id)->delete();

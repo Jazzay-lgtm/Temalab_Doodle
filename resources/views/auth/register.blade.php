@@ -77,7 +77,7 @@
                     {{ __('Regisztráltál már?') }}
                 </a>
 
-                <x-button class="ml-4">
+                <x-button class="ml-4" name="Regisztráció">
                     {{ __('Regisztráció') }}
                 </x-button>
             </div>

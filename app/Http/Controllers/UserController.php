@@ -14,6 +14,8 @@ class UserController extends Controller
         $data['title'] = 'Register';
         return view('user/register', $data);
     }
+
+    //regisztrációnál felhasználó adatainak mentése adatbázisba
     public function register_action(Request $request)
     {
         $request->validate([
@@ -40,6 +42,7 @@ class UserController extends Controller
         return view('user/login', $data);
     }
 
+    //bejelentkezés
     public function login_action(Request $request)
     {
         $request->validate([
@@ -50,7 +53,7 @@ class UserController extends Controller
             $request->session()->regenerate();
             return redirect()->intended('/');
         }
-
+        //hibás falhasználónév vagy jelszó
         return back()->withErrors([
             'password' => 'Wrong username or password',
         ]);
@@ -62,6 +65,7 @@ class UserController extends Controller
         return view('user/password', $data);
     }
 
+    //jelszó csere
     public function password_action(Request $request)
     {
         $request->validate([

@@ -10,6 +10,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
+                    <!-- Foglalások megjelenítéséhez táblázat-->
                     <table class="table table-fixed">
                         <thead>
                         <x-success-status class="mb-4" :status="session('message')" />
@@ -34,7 +35,7 @@
                                     <form action="{{url('foglalás-torlese/'.$booking->id) }}" method="POST">
                                         @csrf
                                         @method('DELETE')
-                                        <x-button class="btn btn-danger">Törlés</x-button>
+                                        <x-button class="btn btn-danger ease-in duration-300">Törlés</x-button>
                                     </form>
                                 </td>
                             </tr>
