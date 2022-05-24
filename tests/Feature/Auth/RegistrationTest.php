@@ -29,4 +29,26 @@ class RegistrationTest extends TestCase
         $this->assertAuthenticated();
         $response->assertRedirect(RouteServiceProvider::HOME);
     }
+
+    public function test_if_email_already_exist_cant_register(){
+        $response = $this->post('/register', [
+            'name' => 'New Test User',
+            'email' => 'test@example.com',
+            'password' => 'new_password',
+            'password_confirmation' => 'new_password',
+        ]);
+        $this->assertAuthenticated();
+        $response->assertStatus(302);
+    }
+
+    public function test_if_username_already_exist_cant_register(){
+        $response = $this->post('/register', [
+            'name' => 'Test User',
+            'email' => 'new.test@example.com',
+            'password' => 'new_password',
+            'password_confirmation' => 'new_password',
+        ]);
+        $this->assertAuthenticated();
+        $response->assertStatus(302);
+    }
 }
