@@ -15230,9 +15230,10 @@ esources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
 #6 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
 #7 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #8 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#9 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\abato\\\\...')
+#9 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\abato\\\\...')
 #10 {main}
-"} 
+"}
 [2022-05-24 20:40:53] local.ERROR: Class "Laravel\Dusk\DuskServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Dusk\\DuskServiceProvider\" not found at C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:749)
 [stacktrace]
 #0 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(683): Illuminate\\Foundation\\Application->resolveProvider('Laravel\\\\Dusk\\\\Du...')
@@ -15244,6 +15245,7 @@ esources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
 #6 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
 #7 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #8 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#9 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\abato\\\\...')
+#9 C:\\Users\\abato\\Documents\\GitHub\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\abato\\\\...')
 #10 {main}
-"} 
+"}
