@@ -26,7 +26,7 @@ class DatabaseTests extends DuskTestCase
         $this->browse(function (Browser $browser) {
             $browser->visit('/register')
                 ->type('name','Teszt')
-                ->type('email','tesztassd@teszt.com')
+                ->type('email','tesztasssd@teszt.com')
                 ->type('password','tesztelek')
                 ->type('password_confirmation','tesztelek')
                 ->press('Regisztráció')
@@ -41,7 +41,7 @@ class DatabaseTests extends DuskTestCase
         $this->browse(function (Browser $browser) {
             $browser->visit('/register')
                 ->type('name','Teszt')
-                ->type('email','tesztdsa@teszt.com')
+                ->type('email','tesztvalami@teszt.com')
                 ->type('password','tesztelek')
                 ->type('password_confirmation','tesztelek')
                 ->press('Regisztráció')

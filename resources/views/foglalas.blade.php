@@ -35,7 +35,7 @@
                             <option id="type" value="Oltási igazolvány igénylése">Oltási igazolvány igénylése</option>
                         </select>
 
-                        <input class="block mt-1 w-full" name="date" type="datetime-local" required pattern="\d{4}-\d{2}-\d{2}">
+                        <input class="block mt-1 w-full" value="2022-06-01T08:30" name="date" type="datetime-local" required pattern="\d{4}-\d{2}-\d{2}">
                         <br>
                         <br>
                         <x-button class="ml-4" name="Foglalás">
