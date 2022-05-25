@@ -36,7 +36,7 @@ class AuthenticationTest extends DuskTestCase
     public function a_user_can_login(){
         $this->browse(function (Browser $browser) {
             $browser->visit('/login')
-                ->type('email','gabokaNagy@example.com')
+                ->type('email','gabokahagy@example.com')
                 ->type('password','Gaboka.titok20')
                 ->press('Bejelentkezés')
                 ->assertPathIs('/dashboard')

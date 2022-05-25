@@ -55,7 +55,7 @@ class UserController extends Controller
         }
         //hibás falhasználónév vagy jelszó
         return back()->withErrors([
-            'password' => 'Wrong username or password',
+            'password' => 'Rossz jelszó vagy felhasználónév',
         ]);
     }
 
@@ -76,7 +76,7 @@ class UserController extends Controller
         $user->password = Hash::make($request->new_password);
         $user->save();
         $request->session()->regenerate();
-        return back()->with('success', 'Password changed!');
+        return back()->with('success', 'Jelszó megváltoztatva!');
     }
 
     public function logout(Request $request)
