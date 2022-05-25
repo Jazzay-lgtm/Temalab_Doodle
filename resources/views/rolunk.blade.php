@@ -133,7 +133,6 @@
                 <div class="container">
                     <h2>Cash</h2>
                     <p class="title">Vice President</p>
-                    <p class="text_">Let's see Paul Allen's about us page</p>
                     <p class="email">doodle.ad23@gmail.com</p>
 
                 </div>
@@ -145,7 +144,6 @@
                 <div class="container">
                     <h2>Eos Ricsi</h2>
                     <p class="title">Creative Director</p>
-                    <p class="text_">Let's see Paul Allen's about us page</p>
                     <p class="email">doodle.ad23@gmail.com</p>
                 </div>
             </div>
@@ -156,7 +154,6 @@
                 <div class="container">
                     <h2>Jazzay</h2>
                     <p class="title">Vice President</p>
-                    <p class="text_">Let's see Paul Allen's about us page</p>
                     <p class="email">doodle.ad23@gmail.com</p>
                 </div>
             </div>
@@ -169,7 +166,6 @@
                 <div class="container">
                     <h2>Shayni</h2>
                     <p class="title">Vice President</p>
-                    <p class="text_">Let's see Paul Allen's about us page</p>
                     <p class="email">doodle.ad23@gmail.com</p>
                 </div>
             </div>
@@ -180,7 +176,6 @@
                 <div class="container">
                     <h2>Ati</h2>
                     <p class="title">Creative Director</p>
-                    <p class="text_">Let's see Paul Allen's about us page</p>
                     <p class="email">doodle.ad23@gmail.com</p>
                 </div>
             </div>
