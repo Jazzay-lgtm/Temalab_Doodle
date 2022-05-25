@@ -23,22 +23,20 @@ class LogoutTest extends DuskTestCase
         $response->assertStatus(200);
     }
 
-    /**
-     * @throws \Throwable
-     */
-    public function test_logout()
-    {
-        parent::setUp();
-
-        factory(User::class)->create([
-            'email' => 'test@example.com',
-        ]);
-
+    /** @test */
+    public function user_logout_test(){
         $this->browse(function (Browser $browser) {
-            $browser->visit('/logout')->logout();
+            $browser->visit('/register')
+                ->type('name','Teszt')
+                ->type('email','tesaassztaasssdd@teszt.com')
+                ->type('password','tesztelek')
+                ->type('password_confirmation','tesztelek')
+                ->press('Regisztráció')
+                ->visit('/dashboard')
+                ->press('felhasznalo')
+                ->click('kijelentkezes')
+                ->assertSee('Doodle');
         });
-
     }
-
 
 }

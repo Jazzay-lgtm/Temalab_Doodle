@@ -15315,7 +15315,8 @@ esources\\server.php(16): require_once('C:\\\\Users\\\\abato\\\\...')
 #61 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #62 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #63 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#64 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#64 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
 #65 {main}
 
 [previous exception] [object] (PDOException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'doodle_breeze2' at C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:70)
@@ -15393,6 +15394,7 @@ esources\\server.php(16): require_once('C:\\\\Users\\\\abato\\\\...')
 #70 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #71 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #72 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#73 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#73 C:\\xampp\\htdocs\\Doodle-Temalab\\Temalab_Doodle\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
 #74 {main}
-"} 
+"}
