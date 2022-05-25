@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Teljes welcomepage stílusa -->
 <style>
-
 
     body {
         margin:0;
@@ -325,6 +324,7 @@
     <title>Doodle Főoldal</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Felhasznált linkek, amik importálják a logot, text-family. -->
     <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -339,6 +339,7 @@
 <header>
     <nav>
         <div class="logo_">
+            <!-- Használjuk a logot, amit linkeltünk -->
             <h4><i class="fa fa-calendar"></i>|Doodle</h4>
         </div>
 
@@ -383,6 +384,7 @@
 </div>
 <div class="social">
 {{--<ul>--}}
+    <!--Social gombok-->
     <li>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
             <i class="fa fa-facebook" aria-hidden="true"></i>

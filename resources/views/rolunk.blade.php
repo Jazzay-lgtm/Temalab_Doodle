@@ -5,12 +5,13 @@
         </h2>
     </x-slot>
 
+    <!-- Linkek, amik importálják a betűstílust és logo-t -->
     <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;594&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
-
+    <!-- Rólunk page stílusa -->
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -117,6 +118,7 @@
         .outer > div {
         }
     </style>
+
     <div class="about-us-section">
         <h2 style="font-family: 'Bebas Neue'; text-align: center; color: white;font-size: 50px" >
             Rólunk
@@ -127,6 +129,7 @@
         </h2>
     </div>
 
+    <!-- Csapat-->
         <div class="column">
             <div class="card">
                 <img src="/images/kenny.jpg" alt="Cash" style="width:100%">
@@ -134,7 +137,7 @@
                     <h2>Cash</h2>
                     <p class="title">Vice President</p>
                     <p class="text_">Let's see Paul Allen's about us page</p>
-                    <p class="email">cash@example.com</p>
+                    <p class="email">doodle.ad23@gmail.com</p>
 
                 </div>
             </div>
@@ -146,7 +149,7 @@
                     <h2>Eos Ricsi</h2>
                     <p class="title">Creative Director</p>
                     <p class="text_">Let's see Paul Allen's about us page</p>
-                    <p class="email">eos.ricsi@example.com</p>
+                    <p class="email">doodle.ad23@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -157,7 +160,7 @@
                     <h2>Jazzay</h2>
                     <p class="title">Vice President</p>
                     <p class="text_">Let's see Paul Allen's about us page</p>
-                    <p class="email">jazzay@example.com</p>
+                    <p class="email">doodle.ad23@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -170,7 +173,7 @@
                     <h2>Shayni</h2>
                     <p class="title">Vice President</p>
                     <p class="text_">Let's see Paul Allen's about us page</p>
-                    <p class="email">shayni@example.com</p>
+                    <p class="email">doodle.ad23@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -181,7 +184,7 @@
                     <h2>Ati</h2>
                     <p class="title">Creative Director</p>
                     <p class="text_">Let's see Paul Allen's about us page</p>
-                    <p class="email">ati@example.com</p>
+                    <p class="email">doodle.ad23@gmail.com</p>
                 </div>
             </div>
         </div>
