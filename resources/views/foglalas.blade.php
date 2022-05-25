@@ -38,7 +38,7 @@
                         <input class="block mt-1 w-full" name="date" type="datetime-local" required pattern="\d{4}-\d{2}-\d{2}">
                         <br>
                         <br>
-                        <x-button class="ml-4">
+                        <x-button class="ml-4" name="Foglalás">
                             {{ __('Foglalás') }}
                         </x-button>
                     </form>
