@@ -89,7 +89,7 @@
                                     <form style="padding-top: 14px" action="{{url('foglalás-torlese/'.$booking->id) }}" method="POST">
                                         @csrf
                                         @method('DELETE')
-                                        <x-button class="btn btn-danger ease-in duration-300">Törlés</x-button>
+                                        <x-button name="Törlés" class="btn btn-danger ease-in duration-300">Törlés</x-button>
                                     </form>
                                 </td>
                             </tr>
