@@ -51,7 +51,7 @@
 
             <div class="flex items-center justify-end mt-4">
                 <x-button>
-                    {{ __('Jelszó visszaállító link küldése.') }}
+                    {{ __('Jelszó visszaállító link küldése') }}
                 </x-button>
             </div>
         </form>
