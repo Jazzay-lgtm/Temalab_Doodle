@@ -28,13 +28,12 @@ class LogoutTest extends DuskTestCase
         $this->browse(function (Browser $browser) {
             $browser->visit('/register')
                 ->type('name','Teszt')
-                ->type('email','tesaassztaasssdd@teszt.com')
+                ->type('email','tettsjdtrszd@teszt.com')
                 ->type('password','tesztelek')
                 ->type('password_confirmation','tesztelek')
                 ->press('Regisztráció')
                 ->visit('/dashboard')
-                ->press('felhasznalo')
-                ->click('kijelentkezes')
+                ->visit('/logout')
                 ->assertSee('Doodle');
         });
     }
