@@ -394,7 +394,7 @@
         </a>
     </li>
     <li>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <a href="https://github.com/Jazzay-lgtm/Temalab_Doodle/tree/main">
             <i class="fa fa-github" aria-hidden="true"></i>
         </a>
     </li>
