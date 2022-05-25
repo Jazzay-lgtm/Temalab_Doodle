@@ -6,9 +6,8 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('foglalas') }}">
-{{--                        <x-application-logo class="block h-10 w-auto fill-current text-gray-600" />--}}
                         <div class="logo_">
-                            <h4><i class="fa fa-calendar"></i></h4>
+                            <i class="fa fa-calendar"></i>
                         </div>
                     </a>
                 </div>
@@ -41,7 +40,7 @@
                     justify-content: center;
                     align-items: center;
                     max-height: 11rem;
-                    padding-top: 7px;
+                    /*padding-top: 7px;*/
                     /*border: 10px;*/
 
                 }

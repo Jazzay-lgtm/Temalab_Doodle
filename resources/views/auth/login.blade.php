@@ -2,7 +2,6 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-{{--                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />--}}
                 <div class="logo_">
                     <h4><i class="fa fa-calendar"></i>|Doodle</h4>
                 </div>
@@ -29,9 +28,7 @@
 
         <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+
 
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
@@ -74,7 +71,7 @@
                     </a>
                 @endif
 
-                <x-button class="ml-3">
+                <x-button class="ml-3" name="Bejelentkezés">
                     {{ __('Bejelentkezés') }}
                 </x-button>
             </div>
