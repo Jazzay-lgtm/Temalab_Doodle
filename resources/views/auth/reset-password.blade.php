@@ -65,7 +65,7 @@
 
             <div class="flex items-center justify-end mt-4">
                 <x-button>
-                    {{ __('Reset Password') }}
+                    {{ __('Jelszó visszaállítása') }}
                 </x-button>
             </div>
         </form>
