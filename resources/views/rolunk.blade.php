@@ -129,7 +129,7 @@
 
         <div class="column">
             <div class="card">
-                <img src="/images/kenny.jpg" alt="Cash" style="width:100%">
+                <img src="/images/cookie_monsta.jpg" alt="Cash" style="width:100%">
                 <div class="container">
                     <h2>Cash</h2>
                     <p class="title">Vice President</p>
@@ -140,7 +140,7 @@
         </div>
         <div class="column">
             <div class="card">
-                <img src="/images/randy.jpg"  alt="Eos Ricsi" style="width:100%">
+                <img src="/images/sly.jpg"  alt="Eos Ricsi" style="width:100%">
                 <div class="container">
                     <h2>Eos Ricsi</h2>
                     <p class="title">Creative Director</p>
@@ -150,7 +150,7 @@
         </div>
         <div class="column">
             <div class="card">
-                <img src="/images/cartman.jpg" alt="Jazzay" style="width:100%">
+                <img src="/images/m_scott.jpg" alt="Jazzay" style="width:100%">
                 <div class="container">
                     <h2>Jazzay</h2>
                     <p class="title">Vice President</p>
@@ -162,7 +162,7 @@
 
         <div class="column">
             <div class="card">
-                <img src="/images/wendy.jpg" alt="Shayni" style="width:100%">
+                <img src="/images/doggo.jpg" alt="Shayni" style="width:100%">
                 <div class="container">
                     <h2>Shayni</h2>
                     <p class="title">Vice President</p>
@@ -172,7 +172,7 @@
         </div>
         <div class="column">
             <div class="card">
-                <img src="/images/stan.jpg" alt="Ati" style="width:100%">
+                <img src="/images/classy_winnie.jpg" alt="Ati" style="width:100%">
                 <div class="container">
                     <h2>Ati</h2>
                     <p class="title">Creative Director</p>
