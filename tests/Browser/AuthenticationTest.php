@@ -14,7 +14,7 @@ class AuthenticationTest extends DuskTestCase
      * @return void
      */
 
-    //regisztrációhoz Dusk
+    //regisztrációhoz teszt
     /** @test */
     public function a_user_can_regist()
     {
@@ -27,9 +27,6 @@ class AuthenticationTest extends DuskTestCase
                 ->press('Regisztráció')
                 ->assertPathIs('/dashboard')
                 ->assertSee('Foglalás');
-
-
-
         });
     }
     /** @test */
